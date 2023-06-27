@@ -35,6 +35,16 @@ public class R<T> {
         return r;
     }
 
+    // 成功静态方法
+    public static<T> R ok(T data) {
+        R r = new R<T>();
+        r.setSuccess(true);
+        r.setCode(200);
+        r.setMessage("成功");
+        r.setData(data);
+        return r;
+    }
+
 
     // 失败静态方法
     public static R error() {
