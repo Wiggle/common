@@ -1,13 +1,13 @@
-package com.auyen.common.vo;
+package com.hecheng.common.vo;
 
-import com.auyen.common.constant.HttpStatusEnum;
+import com.hecheng.common.constant.HttpStatusEnum;
 import lombok.Data;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author wufachun
+ * @author zhengzhiguo
  */
 
 @Data
