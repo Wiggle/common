@@ -5,7 +5,7 @@
     <groupId>com.hecheng</groupId>
     <artifactId>common</artifactId>
     <version>1.0</version>
-
+    <packaging>pom</packaging>
     <parent>
         <groupId>com.hecheng</groupId>
         <artifactId>pmf</artifactId>
@@ -14,7 +14,10 @@
 
     <name>common</name>
     <description>通用模块，封装公共内容</description>
+    <modules>
+        <module>minio</module>
 
+    </modules>
 
     <dependencies>
         <dependency>
